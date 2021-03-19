@@ -1,39 +1,14 @@
-import React from 'react';
-import HelloWorld from "./components/HelloWorld";
-import ByeWorlds from "./components/ByeWorlds";
-function App() {
+import Layout from "./components/Layout/Layout";
+import Loggo from "./components/Loggo/Loggo";
+
+
+function App(){
   return (
-    <div className="App">
-     <HelloWorld />
-     <HelloWorld />
-     <HelloWorld />
-     <HelloWorld />
+    <div className = "App">
+      <Layout>
+        Pizza builder by master Chyngyz Bekbolotov
+      </Layout>
     </div>
-  );
+  )
 }
-
-function App() {
-  return (
-    <div className="App">
-    <ByeWorlds />
-    <ByeWorlds />
-    <ByeWorlds />
-    <ByeWorlds />
-    </div>
-  );
-}
-
-
-
-function App() {
-  return (
-    <div className="App">
-  <Hochu v more />
-  <Hochu v more />
-  <Hochu v more />
-  <Hochu v more />
-    </div>
-  );
-}
-
-export default App;
+export default App ;
