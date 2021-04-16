@@ -6,7 +6,7 @@ function App(){
   return (
     <div className = "App">
       <Layout>
-        Pizza builder by master Chyngyz Bekbolotov
+        I did maket pizza is react js
       </Layout>
     </div>
   )
